@@ -1,3 +1,76 @@
-body {
+@charset "utf-8";
 
+
+
+    /* 1. Removes the default spacing around the edges of the page */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* 2. Styles the background bar for the navigation links */
+    nav {
+        background-color: #7EC9C3;
+        width: 100%;
+    }
+    
+    /* 3. Removes the list bullets and aligns the links horizontally */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    /* 4. Sets up the look, font size, and spacing of the actual text links */
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    /* 5. Changes colors dynamically when your mouse hovers over a link */
+    nav li a:hover {
+        background-color: lightblue;
+        color: white;
+    }
+	
+	/* 6. Changes the color of your main title */
+    h2 {
+        color: white; /* Change this to whatever color you want! */
+        font-family: sans-serif;
+    }
+	
+
+body { 
+	background-color: paleturquoise
+		
+		
 }
+
+img { 
+	width:200px
+
+	
+}
+
+h2 { text-decoration-line: underline;
+  text-decoration-style: solid;}
+
+h2{ 
+font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+	text-shadow: -2px 2px 5px rgba(0,0,0,0.5);
+}
+
+img:hover {
+	border: #5F7CD7 ridge
+	
+}
+	
